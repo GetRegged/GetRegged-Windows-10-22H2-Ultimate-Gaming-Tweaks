@@ -417,6 +417,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
 "Background"="0 0 0"
+"EnableFirstLogonAnimation"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "DisableAcrylicBackgroundOnLogon"=dword:00000001 ; AveYo: enable pure black logon on 11
@@ -717,6 +718,7 @@ Windows Registry Editor Version 5.00
 ; Start > Settings > Accounts > Sign-in options > Use my sign-in info to automatically finish setting up my device... > Disabled
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "DisableAutomaticRestartSignOn"=dword:00000001
+"EnableFirstLogonAnimation"=dword:00000000
 
 ; Start > Settings > Accounts > Sync your settings > Disabled
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SettingSync]
