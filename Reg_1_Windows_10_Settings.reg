@@ -798,6 +798,9 @@ Windows Registry Editor Version 5.00
 ; Start > Settings > Gaming > Xbox Game Bar > Enable Xbox Game Bar... > Off
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR]
 "AppCaptureEnabled"=dword:00000000
+"AudioCaptureEnabled"=dword:00000000
+"CursorCaptureEnabled"=dword:00000000
+"MicrophoneCaptureEnabled"=dword:00000000
 
 ; Start > Settings > Gaming > Xbox Game Bar > Enable Xbox Game Bar... > Off
 [HKEY_CURRENT_USER\System\GameConfigStore]
