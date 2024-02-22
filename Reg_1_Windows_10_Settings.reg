@@ -188,11 +188,8 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ListviewShadow]
 "DefaultValue"=dword:00000000
 
-; Start > Settings > System > About > Advanced system settings > Advanced > Performance (Settings) > Advanced > Virtual memory > Off
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
-"PagingFiles"=hex(7):63,00,3a,00,5c,00,70,00,61,00,67,00,65,00,66,00,69,00,6c,\
-  00,65,00,2e,00,73,00,79,00,73,00,20,00,31,00,30,00,30,00,30,00,20,00,34,00,\
-  30,00,30,00,30,00,00,00,00,00
+; Start > Settings > System > About > Advanced system settings > Advanced > Performance (Settings) > Advanced > Virtual memory > Off (Disables Pagingfile)
+"PagingFiles"=hex(7):00,00,00,00
 
 ; Start > Settings > System > About > Advanced system settings > Advanced > Startup and Recovery (Settings) > Automatically restart > Off
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]
