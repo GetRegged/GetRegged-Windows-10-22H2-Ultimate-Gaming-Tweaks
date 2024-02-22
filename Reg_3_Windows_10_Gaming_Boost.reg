@@ -89,7 +89,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
 "NoLazyMode"=dword:00000001
 "AlwaysOn"=dword:00000001
-"NetworkThrottlingIndex"=dword:ffffffff
+"NetworkThrottlingIndex"=dword:0000000a
 "SystemResponsiveness"=dword:00000000
 
 ; Low Latency Mode 
