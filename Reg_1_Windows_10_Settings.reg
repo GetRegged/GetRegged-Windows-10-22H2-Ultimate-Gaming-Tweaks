@@ -419,6 +419,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "DisableAcrylicBackgroundOnLogon"=dword:00000001 ; AveYo: enable pure black logon on 11
 "DisableLogonBackgroundImage"=dword:00000001 ; solid color logon
+"EnableSmartScreen"=dword:00000000 ; disable smart screen
 
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Personalization]
 "PersonalColors_Background"="#000000" ; AveYo: this is what was missing to make Ctrl+Alt+Del background black as well
