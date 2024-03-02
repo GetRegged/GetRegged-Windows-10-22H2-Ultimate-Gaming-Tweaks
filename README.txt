@@ -59,3 +59,5 @@ This will allow you to restore your system to previous states when necessary.
 Feedback and Contributions:
 If you identify issues, have suggestions, or would like to contribute keys to
 registry files, please use the provided repository communication thread.
+
+ASCII Art Gen: https://textkool.com/en/ascii-art-generator?hl=default&vl=default&font=Red%20Phoenix&text=Your%20text%20here%20
