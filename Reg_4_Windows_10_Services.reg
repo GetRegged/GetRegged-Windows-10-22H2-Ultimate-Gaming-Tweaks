@@ -230,3 +230,5 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv]
 "Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TimeBrokerSvc]
+"Start"=dword:00000004
