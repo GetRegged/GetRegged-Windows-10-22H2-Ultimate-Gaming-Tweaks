@@ -207,7 +207,3 @@ Windows Registry Editor Version 5.00
 ; Disable Pathleght Limit
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
 "LongPathsEnabled"=dword:00000001
-
-;Bring Back Taskbar Search Feature
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
-"Search"="\"C:\\Windows\\system32\\ctfmon.exe\""
