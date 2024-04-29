@@ -196,10 +196,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouclass\Parameters]
 "MouseDataQueueSize"=dword:00000020
 
-; Old Nvidia Sharpening
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS]
-"EnableGR535"=dword:00000000
-
 ;Nvidia Control Panal Language
 [HKEY_CURRENT_USER\SOFTWARE\NVIDIA Corporation\NVControlPanel2\Client]
 "UserDefinedLocale"=dword:00000400
