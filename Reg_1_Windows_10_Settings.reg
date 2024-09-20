@@ -631,8 +631,8 @@ Windows Registry Editor Version 5.00
 "HeadlinesOnboardingComplete"=dword:00000001
 
 ; Start > Settings > Personalization > Taskbar > Show Feeds in taskbar > Off
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds]
-"ShellFeedsTaskbarViewMode"=dword:00000002
+;[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds]
+;"ShellFeedsTaskbarViewMode"=dword:00000002
 
 ; Taskbar > Action Center > Turn on Windows Security Center service > Turn off all notifications for Security and Maintenance
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.SecurityAndMaintenance]
