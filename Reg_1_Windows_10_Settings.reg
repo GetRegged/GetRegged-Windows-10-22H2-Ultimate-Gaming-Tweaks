@@ -660,10 +660,6 @@ Windows Registry Editor Version 5.00
 [HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
 "AllowCortana"=dword:00000000
 
-; Taskbar > Search > Hidden
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
-"SearchboxTaskbarMode"=dword:00000000
-
 ; Hidden > Taskbar > Save Task View timeline history > Disabled
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "EnableActivityFeed"=dword:00000000
