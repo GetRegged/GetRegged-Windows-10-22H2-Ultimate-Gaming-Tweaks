@@ -15,7 +15,7 @@ which must be done with caution, because wrong changes could brick your System.
 GetRegged is solely focused on tweaking the Windows-Registry to get the maximum
 performance out of your hardware and protect your privacy by disabling unneeded
 backgroud processes, unwanted data tracking, prioritizing tasks, stabilize your
-network connection, reducing latency and framedrops and more!
+network connection, reducing latency, framedrops and more!
 
 -----------------------------------------------------------------------------
 | ██████╗ ██╗███████╗ ██████╗██╗      █████╗ ██╗███╗   ███╗███████╗██████╗  |
