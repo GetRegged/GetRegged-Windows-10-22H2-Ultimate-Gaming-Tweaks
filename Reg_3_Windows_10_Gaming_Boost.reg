@@ -38,7 +38,7 @@ Windows Registry Editor Version 5.00
 "MouseThreshold1"="0"
 "MouseThreshold2"="0"
 
-;Disable Fullscreen Optimization
+;Enable Fullscreen Optimization (Cause better)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm]
 "OverlayTestMode"=-
 [HKEY_CURRENT_USER\System\GameConfigStore]
