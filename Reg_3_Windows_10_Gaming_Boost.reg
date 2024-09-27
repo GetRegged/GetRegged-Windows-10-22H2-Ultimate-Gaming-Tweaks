@@ -181,9 +181,9 @@ Windows Registry Editor Version 5.00
 
 ; Dataque Mouse & Keyboard
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdclass\Parameters]
-"KeyboardDataQueueSize"=dword:00000020
+"KeyboardDataQueueSize"=dword:00000016
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouclass\Parameters]
-"MouseDataQueueSize"=dword:00000020
+"MouseDataQueueSize"=dword:00000016
 
 ;Nvidia Control Panal Language
 [HKEY_CURRENT_USER\SOFTWARE\NVIDIA Corporation\NVControlPanel2\Client]
