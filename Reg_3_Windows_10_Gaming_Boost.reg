@@ -11,16 +11,6 @@ Windows Registry Editor Version 5.00
 ; ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝   ╚═╝   ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; Fix Accessibility 
-[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
-"Flags"="0"
-[HKEY_CURRENT_USER\Control Panel\Accessibility\MouseKeys]
-"Flags"="0"
-[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
-"Flags"="0"
-[HKEY_CURRENT_USER\Control Panel\Accessibility\ToggleKeys]
-"Flags"="0"
-
 ; Decrease processes kill time 
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "AutoEndTasks"="1"
@@ -34,6 +24,7 @@ Windows Registry Editor Version 5.00
 
 ; Disable mouse acceleration
 [HKEY_USERS\.DEFAULT\Control Panel\Mouse]
+"MouseSensitivity"="10"
 "MouseSpeed"="0"
 "MouseThreshold1"="0"
 "MouseThreshold2"="0"
