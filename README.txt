@@ -45,7 +45,7 @@ GetRegged is not responsible for any direct or indirect damage, including but
 not limited to system instability, data loss, hardware failure or bricked OS.
 
 3. No Warranty:
-All of my Windows Tegistry files are provided as-is and without any warranty.
+All of my Windows Registry files are provided as-is and without any warranty.
 The author makes no guarantees regarding the accuracy/reliability of any key.
 
 By using these files, you acknowledge that you have read and understood this,
