@@ -18,18 +18,20 @@ Free up valuable storage space and enhance system efficiency with our Temp Clean
 # 🚨 Disclaimer
 The author is NOT responsible for bricked operating systems, thermonuclear war, or you getting fired because the internet connection failed. Please do some research if you have any concerns about features included in my scripts before running it! YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!
 
-All registry files are written for Windows 10 and may not work on Windows 11. They've been tested on Windows 10 ONLY. By downloading and using the RegFiles provided in this repository, you agree to the following terms and conditions:
+Compatibility Notice: All registry files are written for Windows 10 and may not work on Windows 11. They've been tested on Windows 10 ONLY.
+
+By downloading and using the registry files provided in this repository, you agree to the following terms and conditions:
 
 1. Use at Your Own Risk:
-These registry files are provided for educational and informational purposes. You understand that modifying the registry can mess up your operating system.
+Modifying the registry and other system settings can lead to system instability or failure.
 
 2. Responsibility:
-You are solely liable for any issues that may arise from the use of my files. GetRegged is not responsible for any direct or indirect damage, including butnot limited to system instability, data loss, hardware failure or bricked OS.
+You accept full responsibility for any issues that may arise from using the Performance Batch. GetRegged is not liable for any direct or indirect damage, including but not limited to system instability, data loss, hardware failure, or a bricked operating system.
 
 3. No Warranty:
-All of my Windows Registry files are provided as-is and without any warranty. The author makes no guarantees regarding the accuracy/reliability of any key.
+All files are provided as-is without any warranty. The author makes no guarantees regarding the accuracy or reliability of any files.
 
-By using these files, you acknowledge that you have read and understood this, and agree to its terms and conditions.
+By using the Performance Batch, you acknowledge that you have read, understood, and agree to these terms and conditions.
 
 # ⚠️ Recommendations
 It is highly recommended to create a backup of your current registry settings and your system and data before applying any changes in the Windows registry. This will allow you to restore your system to previous states when necessary.
