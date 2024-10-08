@@ -1,6 +1,6 @@
 <div align="center">
 
-# **GetRegged's Performance Batch**
+# **⚡GetRegged's Performance Batch⚡**
 
 </div>
 
