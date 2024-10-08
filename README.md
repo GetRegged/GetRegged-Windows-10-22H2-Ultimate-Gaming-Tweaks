@@ -30,12 +30,12 @@ All of my Windows Registry files are provided as-is and without any warranty. Th
 
 By using these files, you acknowledge that you have read and understood this, and agree to its terms and conditions.
 
-# ⚠️ Recommendation:
+# ⚠️ Recommendations
 It is highly recommended to create a backup of your current registry settings and your system and data before applying any changes in the Windows registry. This will allow you to restore your system to previous states when necessary.
 
 
 # 💻 Requirements
-- Windows 10 or 11
+- Windows 10
 - Internet Connection
 - Administrator Permissions
 
