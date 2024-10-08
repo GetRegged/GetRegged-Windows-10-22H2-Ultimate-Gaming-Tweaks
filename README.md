@@ -1,3 +1,9 @@
+# 📷 Preview
+
+<p align="center">
+<img src="" width="750">
+</p>
+
 # 👏 About
 GetRegged's Performance Batch is an open-source tweaker designed to enhance your computer's performance and reduce latency. This interactive tool empowers users to optimize their systems according to their specific needs, offering customizable settings for varied configurations.
 
@@ -10,10 +16,6 @@ Experience peak performance with a tailored power management profile, ideal for 
 
 3. Temp Cleaner:
 Free up valuable storage space and enhance system efficiency with our Temp Cleaner tool. Quickly remove unnecessary temporary files, cache, and log files that accumulate over time, ensuring your system runs smoothly.
-
-<p align="center">
-<img src="" width="750">
-</p>
 
 # 🚨 Disclaimer
 The author is NOT responsible for bricked operating systems, thermonuclear war, or you getting fired because the internet connection failed. Please do some research if you have any concerns about features included in my scripts before running it! YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!
