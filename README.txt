@@ -12,10 +12,24 @@ up by Windows to be suitable for general use without specialized optimizations.
 Every user has the possibility to edit the Windows-Registry to fit their needs,
 which must be done with caution, because wrong changes could brick your System.
 
-GetRegged is solely focused on tweaking the Windows-Registry to get the maximum
+1. Registry Files:
+GetRegged is mainly focused on tweaking the Windows-Registry to get the maximum
 performance out of your hardware and protect your privacy by disabling unneeded
-backgroud processes, unwanted data tracking, prioritizing tasks, stabilize your
+backgroud processes, unwanted data tracking, prioritizing tasks, balancing your
 network connection, reducing latency, framedrops and more!
+
+2. Power Plan:
+Additionally, a custom power management profile designed specifically for users
+who want to maximize their system's performance and responsiveness for ultralow
+latency, particularly in scenarios such as gaming and resource-intensive tasks,
+is also provided. This power plan forces your system to operate at its absolute 
+maximum capacity, especially in the most demanding scenarios.
+
+3. Temp Cleaner:
+A cleaner to remove unnecessary and system-slowing temporary files from the hard
+drive is also available. By using this cleaning tool, you can quickly remove all
+cache, log files, and other unnecessary data that accumulates over time clearing
+valuable storage space and allowing your system to run smoothly and efficiently.
 
 -----------------------------------------------------------------------------
 | ██████╗ ██╗███████╗ ██████╗██╗      █████╗ ██╗███╗   ███╗███████╗██████╗  |
