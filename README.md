@@ -1,14 +1,17 @@
 # 👏 About
-GetRegged's Performance Batch is an Open Source Tweaker that was designed to improve computer performance and latency. The Tweaker is interactive so it allows the user to optimize their PC however they please. It is important to note that the results may vary depending on the system's configuration.
+GetRegged's Performance Batch: An Open Source Tweaker for Optimal PC Performance
 
-1. Registry Files:
-The tweaker gives you the possibility to tweak the Windows-Registry to get the maximum performance out of your hardware and protect your privacy by disabling unneeded backgroud processes, unwanted data tracking, prioritizing tasks, stabilizing your network connection, reducing latency, framedrops and more!
+GetRegged's Performance Batch is an open-source tweaker designed to enhance your computer's performance and reduce latency. This interactive tool empowers users to optimize their systems according to their specific needs, offering customizable settings for varied configurations.
 
-2. Power Plan:
-Additionally, a custom power management profile designed specifically for users who want to maximize their system's performance and responsiveness for ultralow latency, particularly in scenarios such as gaming and resource-intensive tasks, is also provided. This power plan forces your system to operate at its absolute maximum capacity, especially in the most demanding scenarios.
+Key Features:
+1. Registry Tweaks:
+Gain maximum performance from your hardware by modifying the Windows Registry. Disable unnecessary background processes, prevent unwanted data tracking, prioritize tasks, stabilize your network connection, and reduce latency and frame drops.
+
+2. Custom Power Plan:
+Experience peak performance with a tailored power management profile, ideal for gamers and users engaged in resource-intensive tasks. This power plan pushes your system to operate at its absolute maximum capacity during demanding scenarios.
 
 3. Temp Cleaner:
-A cleaner to remove unnecessary and system-slowing temporary files from the hard drive is also available. By using this cleaning tool, you can quickly remove all cache, log files, and other unnecessary data that accumulates over time clearing valuable storage space and allowing your system to run smoothly and efficiently.
+Free up valuable storage space and enhance system efficiency with our Temp Cleaner tool. Quickly remove unnecessary temporary files, cache, and log files that accumulate over time, ensuring your system runs smoothly.
 
 <p align="center">
 <img src="" width="750">
