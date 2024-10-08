@@ -41,9 +41,11 @@ You accept full responsibility for any issues that may arise from using the Perf
 3. No Warranty:
 All files are provided as-is without any warranty. The author makes no guarantees regarding the accuracy or reliability of any files.
 
+# ❗ Compatibility Notice 
+All registry files are written for Windows 10 and may not work on Windows 11. They've been tested on Windows 10 ONLY.
+
 # ⚠️ Recommendations
 It is highly recommended to create a backup of your current registry settings and your system and data before applying any changes in the Windows registry. This will allow you to restore your system to previous states when necessary.
-
 
 # 💻 Requirements
 - Windows 10
