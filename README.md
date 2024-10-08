@@ -19,7 +19,8 @@ GetRegged's Performance Batch is an open-source tweaker designed to enhance your
   Free up valuable storage space and enhance system efficiency with our Temp Cleaner tool. Quickly remove unnecessary temporary files, cache, and log files that accumulate over time, ensuring your system runs smoothly.
 
 # 🚨 Disclaimer
-The author is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it! **YOU** are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!
+The author is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it!
+**YOU** are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!
 
 Compatibility Notice: All registry files are written for Windows 10 and may not work on Windows 11. They've been tested on Windows 10 ONLY.
 
