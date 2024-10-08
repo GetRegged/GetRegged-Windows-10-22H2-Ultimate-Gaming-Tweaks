@@ -1,4 +1,6 @@
-# 👏 About
+# **GetRegged's Performance Batch**
+
+## 👏 About
 GetRegged's Performance Batch is an open-source tweaker designed to enhance your computer's performance and reduce latency. This interactive tool empowers users to optimize their systems according to their specific needs, offering customizable settings for varied configurations.
 
 <p align="center">
