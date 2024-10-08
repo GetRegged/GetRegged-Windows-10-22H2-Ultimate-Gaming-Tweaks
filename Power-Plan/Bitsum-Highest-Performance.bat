@@ -1,3 +1,4 @@
+echo Importing Bitsum Highest Performance Power Plan
 REM Import GetRegged Power Plan
 curl -g -k -L -# -o "%temp%\Bitsum-Highest-Performance.pow" "https://github.com/GetRegged/GetRegged-Windows-10-22H2-Ultimate-Gaming-Tweaks/raw/main/Power-Plan/bin/Bitsum-Highest-Performance.pow"
 powercfg -import "%temp%\Bitsum-Highest-Performance.pow" 11111111-1111-1111-1111-111111111111
