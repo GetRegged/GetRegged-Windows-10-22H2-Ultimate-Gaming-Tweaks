@@ -7,14 +7,13 @@ GetRegged's Performance Batch is an open-source tweaker designed to enhance your
 
 # 🔑 Features
 - **Registry Tweaks**
-
   Gain maximum performance from your hardware by modifying the Windows Registry. Disable unnecessary background processes, prevent unwanted data tracking, prioritize tasks, stabilize your network connection, and reduce latency and frame drops.
 
-- Custom Power Plan:
-Experience peak performance with a tailored power management profile, ideal for gamers and users engaged in resource-intensive tasks. This power plan pushes your system to operate at its absolute maximum capacity during demanding scenarios.
+- **Custom Power Plan**
+  Experience peak performance with a tailored power management profile, ideal for gamers and users engaged in resource-intensive tasks. This power plan pushes your system to operate at its absolute maximum capacity during demanding scenarios.
 
-- Temp Cleaner:
-Free up valuable storage space and enhance system efficiency with our Temp Cleaner tool. Quickly remove unnecessary temporary files, cache, and log files that accumulate over time, ensuring your system runs smoothly.
+- **Temp Cleaner**
+  Free up valuable storage space and enhance system efficiency with our Temp Cleaner tool. Quickly remove unnecessary temporary files, cache, and log files that accumulate over time, ensuring your system runs smoothly.
 
 # 🚨 Disclaimer
 ***The author is NOT responsible for bricked operating systems, thermonuclear war, or you getting fired because the internet connection failed. Please do some research if you have any concerns about features included in my scripts before running it! YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!***
