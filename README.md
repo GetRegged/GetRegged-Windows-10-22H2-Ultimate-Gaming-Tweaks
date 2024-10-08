@@ -5,7 +5,7 @@ GetRegged's Performance Batch is an open-source tweaker designed to enhance your
 <img src="" width="750">
 </p>
 
-# 🔑 Features
+## 🔑 Features
 - **Registry Tweaks**
   
   Gain maximum performance from your hardware by modifying the Windows Registry. Disable unnecessary background processes, prevent unwanted data tracking, prioritize tasks, stabilize your network connection, and reduce latency and frame drops.
@@ -20,7 +20,6 @@ GetRegged's Performance Batch is an open-source tweaker designed to enhance your
 
 # 🚨 Disclaimer
 The author is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it!
-
 **YOU** are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!
 
 Compatibility Notice: All registry files are written for Windows 10 and may not work on Windows 11. They've been tested on Windows 10 ONLY.
