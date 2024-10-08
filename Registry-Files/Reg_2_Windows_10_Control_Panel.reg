@@ -1,0 +1,284 @@
+﻿Windows Registry Editor Version 5.00
+
+;By using this files, you acknowledge that you have read and understood the disclaimer provided in README.txt, and agree to its terms and conditions!
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ██████╗ ██████╗ ███╗   ██╗████████╗██████╗  ██████╗ ██╗         ██████╗  █████╗ ███╗   ██╗███████╗██╗     ;
+;██╔════╝██╔═══██╗████╗  ██║╚══██╔══╝██╔══██╗██╔═══██╗██║         ██╔══██╗██╔══██╗████╗  ██║██╔════╝██║     ;
+;██║     ██║   ██║██╔██╗ ██║   ██║   ██████╔╝██║   ██║██║         ██████╔╝███████║██╔██╗ ██║█████╗  ██║     ;
+;██║     ██║   ██║██║╚██╗██║   ██║   ██╔══██╗██║   ██║██║         ██╔═══╝ ██╔══██║██║╚██╗██║██╔══╝  ██║     ;
+;╚██████╗╚██████╔╝██║ ╚████║   ██║   ██║  ██║╚██████╔╝███████╗    ██║     ██║  ██║██║ ╚████║███████╗███████╗;
+; ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                    
+
+; Start > Windows System > Control Panel > View by > Large icons
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel]
+"StartupPage"=dword:00000001
+
+; Start > Windows System > Control Panel > Ease of Access Center > Always read this section aloud > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Ease of Access]
+"selfvoice"=dword:00000000
+
+; Start > Windows System > Control Panel > Ease of Access Center > Always scan this section > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Ease of Access]
+"selfscan"=dword:00000000
+
+; Start > Windows System > Control Panel > Ease of Access Center > Make the computer easier to see > Turn on or off High Contrast... (keyboard shortcut is pressed) > Off
+[HKEY_CURRENT_USER\Control Panel\Accessibility\HighContrast]
+"Flags"="4218"
+
+; Start > Windows System > Control Panel > Ease of Access Center > Make the mouse easier to use > Set up Mouse Keys > Turn on Mouse Keys... (keyboard shortcut is pressed) > Off
+[HKEY_CURRENT_USER\Control Panel\Accessibility\MouseKeys]
+"Flags"="58"
+
+; Start > Windows System > Control Panel > Ease of Access Center > Make touch and tablets easier to use > Launching common tools > None
+[HKEY_CURRENT_USER\Control Panel\Accessibility\SlateLaunch]
+"ATapp"=""
+"LaunchAT"=dword:00000000
+
+; Start > Windows System > Control Panel > File Explorer Options > General > Open File Explorer to > This PC
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"LaunchTo"=dword:00000001
+
+; Start > Windows System > Control Panel > File Explorer Options > General > Show recently used files in Quick access > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"ShowRecent"=dword:00000000
+
+; Start > Windows System > Control Panel > File Explorer Options > General > Show frequently used folders in Quick access > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"ShowFrequent"=dword:00000000
+
+; Start > Windows System > Control Panel > File Explorer Options > View > Show preview handlers in preview pane > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowPreviewHandlers"=dword:00000001
+
+; Start > Windows System > Control Panel > File Explorer Options > View > Show sync provider notifications > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowSyncProviderNotifications"=dword:00000000
+
+; Start > Windows System > Control Panel > File Explorer Options > View > Use Sharing Wizard > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"SharingWizardOn"=dword:00000000
+
+; Start > Windows System > Control Panel > File Explorer Options > View > Expand to open folder > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"NavPaneExpandToCurrentFolder"=dword:00000000
+
+; Start > Windows System > Control Panel > File Explorer Options > Search > Don't use the index when searching... > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Search\Preferences]
+"WholeFileSystem"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Home page > Google
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+"Start Page"="https://www.google.com/"
+
+; Start > Windows System > Control Panel > Internet Options > General > Startup > Start with home page
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\ContinuousBrowsing]
+"Enabled"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > General > Tabs > Warn me when closing multiple tabs > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\TabbedBrowsing]
+"WarnOnClose"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > General > Tabs > Show previews for individual tabs in the taskbar > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\TabbedBrowsing]
+"ThumbnailBehavior"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > General > Tabs > Enable Tab Groups > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\TabbedBrowsing]
+"Groups"=dword:00000000
+"NewTabNextToCurrent"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Tabs > Open only the first home page when Internet Explorer starts > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\TabbedBrowsing]
+"OpenAllHomePages"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > General > Tabs > When a new tab is opened, open > Your first home page
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\TabbedBrowsing]
+"NewTabPageShow"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete browsing history on exit > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"ClearBrowsingHistoryOnExit"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete... > Preserve Favorites website data > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"UseAllowList"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete... > Temporary Internet files and website files > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"CleanTIF"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete... > Cookies and website data > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"CleanCookies"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete... > History > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"CleanHistory"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete... > Download History > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"CleanDownloadHistory"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete... > Form data > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"CleanForms"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete... > Passwords > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"CleanPassword"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Delete... > Tracking Protection, ActiveX Filtering and Do Not Track > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"CleanTrackingProtection"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > General > Settings > History > Days to keep pages in history > 0
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Url History]
+"DaysToKeep"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > General > Settings > Caches and databases > Allow website caches and databases > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\BrowserStorage\AppCache]
+"AllowWebsiteCaches"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > General > Settings > Caches and databases > Allow website caches and databases > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\BrowserStorage\IndexedDB]
+"AllowWebsiteDatabases"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Privacy > Never allow websites to request your physical location > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Geolocation]
+"BlockAllWebsites"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > Privacy > Pop-up Blocker > Settings > Play a sound when a pop-up is blocked > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\New Windows]
+"PlaySound"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Privacy > Disable toolbars and extensions when InPrivate Browsing starts > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Safety\PrivacIE]
+"DisableToolbars"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Content > AutoComplete > Settings > Use AutoComplete for > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\DomainSuggestion]
+"Enabled"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Content > AutoComplete > Settings > Use AutoComplete for > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+"FormSuggest PW Ask"="yes"
+"FormSuggest Passwords"="no"
+"Use FormSuggest"="no"
+
+; Start > Windows System > Control Panel > Internet Options > Content > AutoComplete > Settings > Use AutoComplete for > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\WindowsSearch]
+"AutoCompleteGroups"=dword:00000000
+"ConfiguredScopes"=dword:00000000
+"EnabledScopes"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Content > AutoComplete > Settings > Use AutoComplete for > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoComplete]
+"AutoSuggest"="no"
+
+; Start > Windows System > Control Panel > Internet Options > Content > Feeds and Web Slices > Settings > Turn on feed reading view > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Feeds]
+"TurnOffOPV"=dword:00000001
+
+; Start > Windows System > Control Panel > Internet Options > Programs > Manage add-ons > Search Providers > Search in the address bar... > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+"AutoSearch"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Programs > Manage add-ons > Accelerators > Email > Remove as default
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Activities\Email]
+"DefaultActivity"=""
+
+; Start > Windows System > Control Panel > Internet Options > Programs > Manage add-ons > Accelerators > Email > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Activities\Email\live.com]
+"Deleted"=dword:00000001
+"Enabled"=-
+
+; Start > Windows System > Control Panel > Internet Options > Programs > Manage add-ons > Accelerators > Map > Remove as default
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Activities\Map]
+"DefaultActivity"=""
+
+; Start > Windows System > Control Panel > Internet Options > Programs > Manage add-ons > Accelerators > Map > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Activities\Map\bing.com]
+"Deleted"=dword:00000001
+"Enabled"=-
+
+; Start > Windows System > Control Panel > Internet Options > Programs > Manage add-ons > Accelerators > Translate > Remove as default
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Activities\Translate]
+"DefaultActivity"=""
+
+; Start > Windows System > Control Panel > Internet Options > Programs > Manage add-ons > Accelerators > Translate > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Activities\Translate\microsofttranslator.com]
+"Deleted"=dword:00000001
+"Enabled"=-
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Enable automatic crash recovery > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Recovery]
+"AutoRecover"=dword:00000002
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Enable flip ahead with page prediction > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\FlipAhead]
+"FPEnabled"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Enable syncing Internet Explorer settings and data > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\BrowserSettings]
+"Enabled"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Load sites and content in the background... > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\PrefetchPrerender]
+"Enabled"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Notify when downloads complete > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+"NotifyDownloadComplete"="no"
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Tell me if Internet Explorer is not the default web browser > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+"Check_Associations"="no"
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Use inline AutoComplete in the Internet Explorer... > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\AutoComplete]
+"Append Completion"="no"
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Empty Temporary Internet Files when browser is closed > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Cache]
+"Persistent"=dword:00000000
+
+; Start > Windows System > Control Panel > Internet Options > Advanced > Send Do Not Track requests to sites you visit in Internet Explorer > On
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+"DoNotTrack"=dword:00000001
+
+; Start > Windows System > Control Panel > Keyboard > Speed > Repeat delay > Short
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"KeyboardDelay"="0"
+
+; Start > Windows System > Control Panel > Mouse > Pointer Options > Enhance pointer precision > Off
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+
+; Start > Windows System > Control Panel > Network and Sharing Center > Change advanced sharing settings > Private > Turn on automatic setup of network connected devices > Off
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\NcdAutoSetup\Private]
+"AutoSetup"=dword:00000000
+
+; Start > Windows System > Control Panel > Security and Maintenance > Change User Account Control settings > Never notify
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"ConsentPromptBehaviorAdmin"=dword:00000000
+"PromptOnSecureDesktop"=dword:00000000
+
+; Start > Windows System > Control Panel > Security and Maintenance > Maintenance > Change maintenance settings > Automatic Maintenance > Off
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance]
+"WakeUp"=dword:00000000
+
+; Start > Windows System > Control Panel > Sound > Communications > Do nothing
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Multimedia\Audio]
+"UserDuckingPreference"=dword:00000003
+
+; Start > Windows System > Control Panel > Troubleshooting > Change settings > Computer Maintenance > Off
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\ScheduledDiagnostics]
+"EnabledExecution"=dword:00000000
+
+; Start > Windows System > Control Panel > Troubleshooting > Change settings > Allow troubleshooting to begin immediately when started > Off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\MSDT]
+"AllowSkipFirstPage"=dword:00000000
