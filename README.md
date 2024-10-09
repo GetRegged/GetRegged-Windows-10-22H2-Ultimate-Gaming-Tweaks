@@ -28,16 +28,7 @@ GetRegged's Performance Batch is an open-source tweaker designed to enhance your
 The author of this script is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it!
 **YOU** are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!
 
-By downloading and using GetRegged's Performance Batch provided in this repository, you acknowledge that you have read, understood you agree to the following terms and conditions:
-
-1. Use at Your Own Risk:
-Modifying the registry and other system settings can lead to system instability or failure.
-
-2. Responsibility:
-You accept full responsibility for any issues that may arise from using the Performance Batch. GetRegged is not liable for any direct or indirect damage, including but not limited to system instability, data loss, hardware failure, or a bricked operating system.
-
-3. No Warranty:
-All files are provided as-is without any warranty. The author makes no guarantees regarding the accuracy or reliability of any files.
+By downloading and using GetRegged's Performance Batch provided in this repository, you acknowledge that you have read, understood and agree to this disclaimer.
 
 # ❗ Compatibility Notice 
 Tested on Windows 10 **ONLY**
