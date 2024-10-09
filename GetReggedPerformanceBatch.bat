@@ -212,13 +212,17 @@ goto menuexit
 ::════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 :PowerPlan
 cls
-
 echo Importing Bitsum Highest Performance Power Plan
+timeout /t 1 /nobreak > NUL
+
 :: Import GetRegged Power Plan
 curl -g -k -L -# -o "%temp%\Bitsum-Highest-Performance.pow" "https://github.com/GetRegged/GetRegged-Performance-Batch/raw/main/bin/Bitsum-Highest-Performance.pow" >nul 2>nul
 powercfg -import "%temp%\Bitsum-Highest-Performance.pow" 11111111-1111-1111-1111-111111111111 >nul 2>nul
 powercfg -setactive 11111111-1111-1111-1111-111111111111 >nul 2>nul
-timeout /t 3 /nobreak > NUL
+
+cls
+echo Completed
+timeout /t 2 /nobreak > NUL
 
 cls
 set c=[94m
@@ -256,6 +260,8 @@ if '%choice%'=='2' goto menuexit
 :DeletePlans
 cls
 echo Deleting other power plans
+timeout /t 2 /nobreak > NUL
+
 :: Delete Balanced Power Plan
 powercfg -delete 381b4222-f694-41f0-9685-ff5bb260df2e >nul 2>nul
 
@@ -271,18 +277,17 @@ powercfg -delete e9a42b02-d5df-448d-aa00-03f14749eb61 >nul 2>nul
 :: Delete AMD Ryzen Balanced Power Plan
 powercfg -delete 9897998c-92de-4669-853f-b7cd3ecb2790 >nul 2>nul
 
-timeout /t 3 /nobreak > NUL
+
 cls
 echo Completed 
-
 timeout /t 2 /nobreak > NUL
+
 goto menuexit
 
 ::════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 :TempTamer
 cls
 echo Cleaning IP cache
-timeout /t 1 /nobreak > NUL
 
 :: Zurücksetzen und Löschen des IP-Caches
 ipconfig /flushdns >nul 2>nul
@@ -297,7 +302,7 @@ netsh branchcache reset >nul 2>nul
 netsh http flush logbuffer >nul 2>nul
 
 echo Cleaning temporary files
-timeout /t 1 /nobreak > NUL
+timeout /t 2 /nobreak > NUL
 
 :: Löschen von Cache und temporären Dateien
 del /s /f /q "%AppData%\Discord\Cache" >nul 2>nul
@@ -322,7 +327,7 @@ del /s /f /q "%windir%\System32\SleepStudy" >nul 2>nul
 del /s /f /q "%windir%\temp" >nul 2>nul
 
 echo Cleaning temporary folders
-timeout /t 1 /nobreak > NUL
+timeout /t 2 /nobreak > NUL
 
 :: Löschen von temporären Systemordnern
 rd /s /q "%SystemDrive%\$GetCurrent" >nul 2>nul
@@ -347,10 +352,11 @@ goto :end
 goto :end
 
 :end
-cls
 
+cls
 echo Completed
 timeout /t 2 /nobreak > NUL
+
 goto menuexit
 
 ::════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
