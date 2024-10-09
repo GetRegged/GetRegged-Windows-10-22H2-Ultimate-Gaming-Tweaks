@@ -61,4 +61,4 @@ It is highly recommended to create a backup of your current registry settings an
 If you identify issues, have suggestions, or would like to contribute keys to registry files, please use the provided repository communication thread.
 
 # 📜 License
-GetRegged's Performance Batch is Licensed under the [MIT License](https://opensource.org/licenses/MIT). For more information, visit [LICENSE](https://github.com/ancel1x/Ancels-Performance-Batch/blob/main/LICENSE)
+GetRegged's Performance Batch is Licensed under the [MIT License](https://opensource.org/licenses/MIT). For more information, visit [LICENSE](https://github.com/GetRegged/GetRegged-Performance-Batch/blob/main/LICENSE)
