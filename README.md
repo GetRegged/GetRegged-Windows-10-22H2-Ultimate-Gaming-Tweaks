@@ -57,7 +57,7 @@ In Version 1.0, the Performance Tweaks feature, accessible by pressing 1 in the 
 1. Go to [Releases]()
 2. Download "GetReggedsPerformanceBatch.bat"
 3. Run "GetReggedsPerformanceBatch.bat" as Administrator
-4. Press the Number # for the Optimization you want, and click Enter
+4. Press the Number # for the optimization you want, and click enter
 
 # 🤝 Feedback and Contributions:
 If you identify issues, have suggestions, or would like to contribute keys to registry files, please use the provided repository communication thread.
