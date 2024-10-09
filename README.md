@@ -5,7 +5,7 @@
 </div>
 
 ## 👏 About
-GetRegged's Performance Batch is an open-source tweaking tool designed to enhance your computer's performance and reduce not only input but also system latency. This interactive tool empowers users to optimize their windows operating system for maximum performance.
+GetRegged's Performance Batch is an open-source tweaking tool designed to significantly enhance your computer's performance by minimizing both input and system latency. Whether you're a gamer, a power user, or simply looking for a faster and more responsive experience, this tool empowers you to optimize your Windows operating system with ease. Featuring an interactive interface, users can effortlessly apply proven tweaks tailored for maximum performance, ensuring that your system runs faster, smoother, and more efficiently even during the most demanding scenarios.
 
 <p align="center">
 <img src="https://github.com/GetRegged/GetRegged-Performance-Batch/blob/main/image/preview.png" width="1080">
@@ -16,13 +16,21 @@ GetRegged's Performance Batch is an open-source tweaking tool designed to enhanc
   
   Gain maximum performance from your hardware by modifying your windows operating system, disabling unnecessary background processes, preventing unwanted data tracking, prioritizing tasks, stabilizing your network connection, reducing latency and frame drops and more.
 
-- **Highest Performance Power Plan**
-  
-  Experience peak performance with a tailored power management profile, ideal for gamers and users engaged in resource-intensive tasks. This power plan pushes your system to operate at its absolute maximum capacity during the most demanding scenarios.
+- **Option2**
 
-- **Temp Cleaner**
+  Text
   
-  Free up valuable storage space and enhance system efficiency with Temp Tamer a Cache and Temporary File cleaning tool. Quickly remove unnecessary temporary files, cache, and log files that accumulate over time, ensuring your system runs smoothly.
+- **Option3**
+
+  Text
+
+- **Power Plan**
+  
+  Experience peak performance, higher frame rates, smoother multitasking, and enhanced responsiveness with the Bitsum Highest Performance Power Plan, a tailored power management profile designed specifically for gamers and users engaged in resource-intensive tasks. This powerful plan ensures your system operates at its absolute maximum capacity, eliminating CPU throttling and reducing input lag during the most demanding scenarios.
+
+- **Temp Tamer**
+  
+  Free up valuable storage space and enhance system efficiency with Temp Tamer, a powerful cleaning tool that removes unnecessary temporary files, cache data, and log files that accumulate over time. By optimizing your storage, Temp Tamer ensures a faster and more responsive computing experience.
 
 # 🚨 Disclaimer
 The author of this script is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it!
