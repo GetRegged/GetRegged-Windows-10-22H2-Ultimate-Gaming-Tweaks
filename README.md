@@ -32,6 +32,15 @@ GetRegged's Performance Batch is an open-source tweaking tool designed to signif
   
   Free up valuable storage space and enhance system efficiency with Temp Tamer, a powerful cleaning tool that removes unnecessary temporary files, cache data, and log files that accumulate over time. By optimizing your storage, Temp Tamer ensures a faster and more responsive computing experience.
 
+# 💻 Requirements
+- Windows 10
+- Windows 11
+- Internet Connection
+- Administrator Permissions
+
+# ⚠️ Recommendations
+It is highly recommended to create a backup of your current registry settings, your system and your data before applying any changes in the Windows registry. This will allow you to restore your system to previous states when necessary.
+
 # 🚨 Disclaimer
 The author of this script is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it!
 **YOU** are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!
@@ -40,15 +49,6 @@ By downloading and using GetRegged's Performance Batch provided in this reposito
 
 # ❗ Compatibility Notice 
 Tested on Windows 10 **ONLY**
-
-# ⚠️ Recommendations
-It is highly recommended to create a backup of your current registry settings, your system and your data before applying any changes in the Windows registry. This will allow you to restore your system to previous states when necessary.
-
-# 💻 Requirements
-- Windows 10
-- Windows 11
-- Internet Connection
-- Administrator Permissions
 
 # ❓ How to Use?
 1. Go to [Releases]()
