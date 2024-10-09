@@ -47,7 +47,7 @@ The author of this script is **NOT** responsible for bricked operating systems, 
 By downloading and using GetRegged's Performance Batch provided in this repository, you acknowledge that you have read, understood and agree to this disclaimer.
 
 #  ❗ Compatibility Notice 
-Tested on Windows 10 **ONLY**
+In Version 1.0, the Performance Tweaks feature, accessible by pressing 1 in the menu, currently includes optimizations specifically for Windows 10. It is not recommended to run these Windows 10 optimizations on a Windows 11 operating system. However, Windows 11 performance options may be added in upcoming versions. All other features of GetRegged's Performance Batch can be safely used on Windows 11.
 
 # ❓ How to Use?
 1. Go to [Releases]()
