@@ -60,7 +60,7 @@ In Version 1.0, the Performance Tweaks feature, accessible by pressing 1 in the 
 4. Press the Number # for the optimization you want, and click enter
 
 # 🤝 Feedback and Contributions:
-If you identify issues, have suggestions, or would like to contribute keys to registry files, please use the provided repository communication thread.
+If you identify issues, have suggestions, or would like to contribute keys to commands to the performance batch, please use the provided repository communication thread.
 
 # 📜 License
 GetRegged's Performance Batch is Licensed under the [MIT License](https://opensource.org/licenses/MIT). For more information, visit [LICENSE](https://github.com/GetRegged/GetRegged-Performance-Batch/blob/main/LICENSE)
