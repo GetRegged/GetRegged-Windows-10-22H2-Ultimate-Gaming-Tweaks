@@ -47,7 +47,7 @@ The author of this script is **NOT** responsible for bricked operating systems, 
 
 By downloading and using GetRegged's Performance Batch provided in this repository, you acknowledge that you have read, understood and agree to this disclaimer.
 
-# ❗ Compatibility Notice 
+#  ❗ Compatibility Notice 
 Tested on Windows 10 **ONLY**
 
 # ❓ How to Use?
