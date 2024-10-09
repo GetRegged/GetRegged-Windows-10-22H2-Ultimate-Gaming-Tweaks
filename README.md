@@ -55,8 +55,8 @@ In Version 1.0, the Performance Tweaks feature, accessible by pressing 1 in the 
 
 # ❓ How to Use?
 1. Go to [Releases]()
-2. Download "GetReggedPerformanceBatch.bat"
-3. Run "GetReggedPerformanceBatch.bat" as Administrator
+2. Download "GetReggedsPerformanceBatch.bat"
+3. Run "GetReggedsPerformanceBatch.bat" as Administrator
 4. Press the Number # for the Optimization you want, and click Enter
 
 # 🤝 Feedback and Contributions:
