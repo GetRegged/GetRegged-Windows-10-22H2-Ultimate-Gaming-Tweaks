@@ -28,8 +28,6 @@ GetRegged's Performance Batch is an open-source tweaker designed to enhance your
 The author is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it!
 **YOU** are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you!
 
-Compatibility Notice: All registry files are written for Windows 10 and may not work on Windows 11. They've been tested on Windows 10 ONLY.
-
 By downloading and using GetRegged's Performance Batch provided in this repository, you acknowledge that you have read, understood you agree to the following terms and conditions:
 
 1. Use at Your Own Risk:
@@ -42,13 +40,14 @@ You accept full responsibility for any issues that may arise from using the Perf
 All files are provided as-is without any warranty. The author makes no guarantees regarding the accuracy or reliability of any files.
 
 # ❗ Compatibility Notice 
-All registry files are written for Windows 10 and may not work on Windows 11. They've been tested on Windows 10 ONLY.
+Tested on Windows 10 **ONLY**
 
 # ⚠️ Recommendations
 It is highly recommended to create a backup of your current registry settings and your system and data before applying any changes in the Windows registry. This will allow you to restore your system to previous states when necessary.
 
 # 💻 Requirements
 - Windows 10
+- Windows 11
 - Internet Connection
 - Administrator Permissions
 
