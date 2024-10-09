@@ -18,7 +18,7 @@ GetRegged's Performance Batch is an open-source tweaker designed to enhance your
 
 - **Highest Performance Power Plan**
   
-  Experience peak performance with a tailored power management profile, ideal for gamers and users engaged in resource-intensive tasks. This power plan pushes your system to operate at its absolute maximum capacity during demanding scenarios.
+  Experience peak performance with a tailored power management profile, ideal for gamers and users engaged in resource-intensive tasks. This power plan pushes your system to operate at its absolute maximum capacity during the most demanding scenarios.
 
 - **Temp Cleaner**
   
