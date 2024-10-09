@@ -22,7 +22,7 @@ GetRegged's Performance Batch is an open-source tweaker designed to enhance your
 
 - **Temp Cleaner**
   
-  Free up valuable storage space and enhance system efficiency with our Temp Cleaner tool. Quickly remove unnecessary temporary files, cache, and log files that accumulate over time, ensuring your system runs smoothly.
+  Free up valuable storage space and enhance system efficiency with Temp Tamer a Cache and Temporary File cleaning tool. Quickly remove unnecessary temporary files, cache, and log files that accumulate over time, ensuring your system runs smoothly.
 
 # 🚨 Disclaimer
 The author is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it!
