@@ -42,7 +42,7 @@ GetRegged's Performance Batch is an open-source tweaking tool designed to signif
 - Administrator Permissions
 
 # ⚠️ Recommendations
-It is highly recommended to create a backup of your current registry settings, your system and your data before applying any changes in the Windows registry. This will allow you to restore your system to previous states when necessary.
+It is highly recommended to create a backup of your current registry settings, your system and your data before applying any performance tweaks. This will allow you to restore your system to previous states when necessary.
 
 # 🚨 Disclaimer
 The author of this script is **NOT** responsible for bricked operating systems, thermonuclear war, or you getting fired because your internet connection failed. Please do some research if you have any concerns about features included in GetRegged's Performance Batch **BEFORE** running it!
