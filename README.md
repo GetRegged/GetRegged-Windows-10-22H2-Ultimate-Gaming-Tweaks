@@ -54,7 +54,7 @@ By downloading and using GetRegged's Performance Batch provided in this reposito
 In Version 1.0, the Performance Tweaks feature, accessible by pressing 1 in the menu, currently includes optimizations specifically for Windows 10. It is not recommended to run these Windows 10 optimizations on a Windows 11 operating system. However, Windows 11 performance options may be added in upcoming versions. All other features of GetRegged's Performance Batch can be safely used on Windows 11.
 
 # ❓ How to Use?
-1. Go to [Releases]()
+1. Go to [Releases](https://github.com/GetRegged/GetRegged-Performance-Batch/releases/latest)
 2. Download "GetReggedsPerformanceBatch.bat"
 3. Run "GetReggedsPerformanceBatch.bat" as Administrator
 4. Press the Number # for the optimization you want, and click enter
