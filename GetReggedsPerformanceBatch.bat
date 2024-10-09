@@ -1,5 +1,7 @@
 @echo off
 
+title GetRegged's Performance Batch
+
 :: Version #
 Set Version=1.0
 
