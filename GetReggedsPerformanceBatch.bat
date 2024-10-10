@@ -237,16 +237,16 @@ timeout /t 1 /nobreak > NUL
 cls
 
 ::TRIM für SSDs aktivieren (in der Regel standardmäßig aktiviert)
-:: echo Applying SSD Tweaks
-:: fsutil behavior set DisableDeleteNotify NTFS 0
-:: fsutil behavior set DisableDeleteNotify ReFS 0
-:: timeout /t 1 /nobreak > NUL
+echo Applying SSD Tweaks
+fsutil behavior set DisableDeleteNotify NTFS 0
+fsutil behavior set DisableDeleteNotify ReFS 0
+timeout /t 1 /nobreak > NUL
 
 :: BCD Tweaks
-:: echo Applying BCD Tweaks
-:: bcdedit /set useplatformclock No
-:: bcdedit /set disabledynamictick Yes
-:: timeout /t 1 /nobreak > NUL
+echo Applying BCD Tweaks
+bcdedit /set useplatformclock No
+bcdedit /set disabledynamictick Yes
+timeout /t 1 /nobreak > NUL
 
 :: Disable Mitigations
 :: echo Disable Mitigations
