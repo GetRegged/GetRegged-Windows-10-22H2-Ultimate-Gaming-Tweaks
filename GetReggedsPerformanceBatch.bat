@@ -240,6 +240,7 @@ cls
 echo Applying SSD Tweaks
 fsutil behavior set DisableDeleteNotify NTFS 0
 fsutil behavior set DisableDeleteNotify ReFS 0
+timeout /t 1 /nobreak > NUL
 
 :: BCD Tweaks
 echo Applying BCD Tweaks
@@ -250,9 +251,7 @@ timeout /t 1 /nobreak > NUL
 :: Disable Mitigations
 echo Disable Mitigations
 powershell "ForEach($v in (Get-Command -Name \"Set-ProcessMitigation\").Parameters[\"Disable\"].Attributes.ValidValues){Set-ProcessMitigation -System -Disable $v.ToString() -ErrorAction SilentlyContinue}"
-
 powershell "Remove-Item -Path \"HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\*\" -Recurse -ErrorAction SilentlyContinue"
-
 reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v "DisableExternalDMAUnderLock" /t REG_DWORD /d "0" /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard" /v "EnableVirtualizationBasedSecurity" /t REG_DWORD /d "0" /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard" /v "HVCIMATRequired" /t REG_DWORD /d "0" /f
