@@ -236,7 +236,7 @@ timeout /t 1 /nobreak > NUL
 :Windows11
 cls
 
-::TRIM für SSDs aktivieren (in der Regel standardmäßig aktiviert)
+:: TRIM activation for SSD
 :: echo Applying SSD Tweaks
 :: fsutil behavior set DisableDeleteNotify NTFS 0
 :: fsutil behavior set DisableDeleteNotify ReFS 0
@@ -287,19 +287,19 @@ cls
 :: timeout /t 1 /nobreak > NUL
 
 :: Win32Priority
-echo Setting Win32Priority
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl" /v "Win32PrioritySeparation" /t REG_DWORD /d "38" /f
-timeout /t 1 /nobreak > NUL
+:: echo Setting Win32Priority
+:: reg add "HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl" /v "Win32PrioritySeparation" /t REG_DWORD /d "38" /f
+:: timeout /t 1 /nobreak > NUL
 
 :: Large System Cache
-echo Enabling Large System Cache
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "LargeSystemCache" /t REG_DWORD /d "0" /f
-timeout /t 1 /nobreak > NUL
+:: echo Enabling Large System Cache
+:: reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "LargeSystemCache" /t REG_DWORD /d "0" /f
+:: timeout /t 1 /nobreak > NUL
 
 :: Disable Fast Startup
-echo Disable Fast Startup
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v "HiberbootEnabled" /t REG_DWORD /d "0" /f
-timeout /t 1 /nobreak > NUL
+:: echo Disable Fast Startup
+:: reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v "HiberbootEnabled" /t REG_DWORD /d "0" /f
+:: timeout /t 1 /nobreak > NUL
 
 :: Disable Hibernation
 echo Disable Hibernation
