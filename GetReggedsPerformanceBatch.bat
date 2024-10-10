@@ -198,9 +198,7 @@ if '%choice%'=='2' goto Windows11
 cls
 :: BCD Tweaks
 echo Applying BCD Tweaks
-bcdedit /set useplatformclock No
 bcdedit /set platformtick No
-bcdedit /set disabledynamictick Yes
 bcdedit /set tscsyncpolicy Enhanced
 bcdedit /set firstmegabytepolicy UseAll
 bcdedit /set avoidlowmemory 0x8000000
@@ -246,7 +244,6 @@ fsutil behavior set DisableDeleteNotify ReFS 0
 :: BCD Tweaks
 echo Applying BCD Tweaks
 bcdedit /set useplatformclock No
-bcdedit /seplatformtick No
 bcdedit /set disabledynamictick Yes
 timeout /t 1 /nobreak > NUL
 
