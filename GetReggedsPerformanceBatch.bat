@@ -268,18 +268,18 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "Mitig
 timeout /t 1 /nobreak > NUL
 
 :: NTFS Tweaks
-echo Applying NTFS Tweaks
-fsutil behavior set memoryusage 2
-fsutil behavior set mftzone 4
-fsutil behavior set disablelastaccess 1
-fsutil behavior set disabledeletenotify 0
-fsutil behavior set encryptpagingfile 0
-timeout /t 1 /nobreak > NUL
+:: echo Applying NTFS Tweaks
+:: fsutil behavior set memoryusage 2
+:: fsutil behavior set mftzone 4
+:: fsutil behavior set disablelastaccess 1
+:: fsutil behavior set disabledeletenotify 0
+:: fsutil behavior set encryptpagingfile 0
+:: timeout /t 1 /nobreak > NUL
 
 :: Disable Memory Compression
-echo Disable Memory Compression
-PowerShell -Command "Disable-MMAgent -MemoryCompression"
-timeout /t 1 /nobreak > NUL
+:: echo Disable Memory Compression
+:: PowerShell -Command "Disable-MMAgent -MemoryCompression"
+:: timeout /t 1 /nobreak > NUL
 
 :: Disable Page Combining
 echo Disable Page Combining
