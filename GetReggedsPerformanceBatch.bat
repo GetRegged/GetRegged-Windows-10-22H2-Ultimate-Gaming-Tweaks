@@ -282,9 +282,9 @@ cls
 :: timeout /t 1 /nobreak > NUL
 
 :: Disable Page Combining
-echo Disable Page Combining
-PowerShell -Command "Disable-MMAgent -PageCombining"
-timeout /t 1 /nobreak > NUL
+:: echo Disable Page Combining
+:: PowerShell -Command "Disable-MMAgent -PageCombining"
+:: timeout /t 1 /nobreak > NUL
 
 :: Win32Priority
 echo Setting Win32Priority
